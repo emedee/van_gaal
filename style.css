@@ -103,9 +103,21 @@ p, h3{
     background: rgba(77, 186, 236, 0.281);
     border-radius: 10px;
 }
+.skill-line-one-tech{
+    height: 6px;
+    width: 290px;
+    background: rgba(77, 186, 236, 0.281);
+    border-radius: 10px;
+}
 .skill-line-two{
     height: 5px;
     width: 420px;
+    background: rgb(77, 186, 236);
+    border-radius: 10px;
+}
+.skill-line-two-tech{
+    height: 5px;
+    width: 290px;
     background: rgb(77, 186, 236);
     border-radius: 10px;
 }
@@ -116,10 +128,23 @@ p, h3{
     border-radius: 10px;
     z-index: 1;
 }
+.skill-line-three-tech{
+    height: 5px;
+    width: 220px;
+    background: rgb(77, 186, 236);
+    border-radius: 10px;
+    z-index: 1;
+}
 .skill-line-four{
     height: 5px;
     width: 420px;
     background: white;
+    border-radius: 10px;
+}
+.skill-line-four-tech{
+    height: 5px;
+    width: 290px;
+    background: rgba(163, 161, 161, 0.253);
     border-radius: 10px;
 }
 .skillset{
@@ -176,4 +201,11 @@ p, h3{
 }
 .description{
     align-self: center;
+}
+.technology{
+    display: flex;
+    flex-direction: row;
+}
+.left-technology{
+    margin-right: 20px;
 }
