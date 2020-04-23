@@ -1,0 +1,162 @@
+body{
+    background: rgba(0, 0, 0, 0.041);
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-side{
+    width: 30%;
+    height: auto;
+    background: rgba(230, 227, 227, 0.76);
+    padding: 20px 20px 50px;
+    margin: -10px 0px;
+}
+.right-side{
+    width: 40%;
+    height: auto;
+    background: white;
+    padding: 20px 20px 50px;
+    margin: -10px 0px;
+}
+.profile-image{
+    padding: 3%;
+    border: 2px solid rgb(77, 186, 236);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.display-picture{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.name{
+    font-size: 300%;
+    color: rgb(77, 186, 236);
+    margin: 0px;
+}
+p, h3{
+    margin: 0px;
+}
+.objectives{
+    text-align: right;
+    color:rgb(77, 186, 236);
+}
+.div-line{
+    margin: 50px 0px;
+}
+.div-right-line{
+    margin: 20px 0px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+    
+}
+.right-line{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    justify-content: flex-end;
+}
+.hr{
+    height: 1px;
+    width: 450px;
+    background: black;
+}
+.right-hr{
+    height: 1px;
+    width: 450px;
+    background: rgb(77, 186, 236);
+    margin: 8px 0px;
+    align-self: center;
+}
+.box{
+    background: rgb(77, 186, 236);
+    width: 20px;
+    height: 20px;
+}
+.right-box{
+    background: black;
+    width: 20px;
+    height: 20px;
+}
+.rightt{
+    padding: 5px;
+    border: 2px solid rgb(77, 186, 236);
+}
+.email{
+    margin-bottom: -15px;
+}
+.skill-line-one{
+    height: 6px;
+    width: 420px;
+    background: rgba(77, 186, 236, 0.281);
+    border-radius: 10px;
+}
+.skill-line-two{
+    height: 5px;
+    width: 420px;
+    background: rgb(77, 186, 236);
+    border-radius: 10px;
+}
+.skill-line-three{
+    height: 5px;
+    width: 300px;
+    background: rgb(77, 186, 236);
+    border-radius: 10px;
+    z-index: 1;
+}
+.skill-line-four{
+    height: 5px;
+    width: 420px;
+    background: white;
+    border-radius: 10px;
+}
+.skillset{
+    /* margin-top: 0px; */
+    margin-bottom: 5px;
+}
+.company1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+}
+.company2{
+    display: flex;
+    flex-direction: row;
+}
+.company3{
+    display: flex;
+    flex-direction: row;
+    margin-right: -20px;
+}
+.bulletin{
+    width: 7px;
+    height: 7px;
+    background: rgb(77, 186, 236);
+    /* align-self: center; */
+    margin-top: 10%;
+}
+.company-name{
+    margin: 0px 5px;
+    font-size: 20px;
+    width: 30%;
+}
+.work-history{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.description{
+    /* margin-left: 60px; */
+}
+.title{
+    margin: 0px;
+    color: rgb(77, 186, 236);
+}
