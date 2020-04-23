@@ -1,3 +1,54 @@
+@media (max-width: 575.98px) {
+    .body{
+        flex-direction: column !important;
+    }
+    .left-side{
+        width: 100% !important;
+        margin: -10px !important;
+    }
+    .name{
+        text-align: center !important;
+        font-size: 30px !important;
+    }
+    .data-scientist{
+        text-align: center !important;
+    }
+    .hr, .right-hr{
+        width: 250px !important;
+        margin: auto auto auto 0px !important;
+    }
+    .box, .rightt{
+        /* margin-left: 30px !important;; */
+        margin: auto 0px auto auto !important;
+    }
+    .email{
+        text-align: center !important;
+    }
+    pre{
+        text-align: center !important;
+        margin-left: -20px !important;
+    }
+    .div-line{
+        margin: 50px 0px 10px !important;
+    }
+    .objectives{
+        text-align: center !important;
+        margin: 0px !important;
+    }
+    .skill-line-one, .skill-line-two, .skill-line-four{
+        width: 300px !important;
+    }
+    .skill-line-three{
+        width: 200px !important;
+    }
+    .right-side{
+        width: 100% !important;
+        margin: 0px -10px !important;
+    }
+    .company1{
+        margin-right: 10px !important;
+    }
+}
 body{
     background: rgba(0, 0, 0, 0.041);
 }
