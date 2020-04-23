@@ -58,10 +58,10 @@
         width: auto !important;
     }
     .skill-line-three{
-        width: 250px !important;
+        width: 220px !important;
     }
     .skill-line-three-tech{
-        width: 250px !important;
+        width: 220px !important;
     }
     .right-side{
         width: auto !important;
@@ -121,6 +121,116 @@
     }
     .activities{
         margin-top: 70px !important;
+    }
+}
+@media (min-width: 0px) and (max-width: 340px) {
+    .left-side{
+        padding: 25px !important;
+    }
+    .right-side{
+        padding: 25px !important;
+    }
+}
+@media (min-width: 576px ) and (max-width: 900px ) {
+    .left-side{
+        width: 40% !important;
+        margin: 0px !important;
+    }
+    .right-side{
+        width: 60% !important;
+        margin: 0px !important;
+    }
+    .body{
+        width: auto !important;
+        margin: 0px !important;
+        justify-content: initial !important;
+    }
+    body{
+        width: auto !important;
+        margin: 0px !important;
+    }
+    .skill-line-one,.skill-line-two, .skill-line-four{
+        width: 300px !important;
+    }
+    .skill-line-one-tech,.skill-line-two-tech, .skill-line-four-tech{
+        width: 335px !important;
+    }
+    .skill-line-three{
+        width: 230px !important;
+    }
+    .skill-line-three-tech{
+        width: 265px !important;
+    }
+    .right-hr{
+        width: 300px !important;
+    }
+    .technology{
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+    }
+    .company1{
+        margin-right: 30px !important;
+    }
+    .company11{
+        margin-right: -5px !important;
+    }
+    .company2{
+        margin-right: 10px !important;
+    }
+    .company33{
+        margin-right: -15px !important;
+    }
+}
+@media (min-width: 910px ) and (max-width: 1200px ) {
+    .left-side{
+        width: 40% !important;
+        margin: 0px !important;
+    }
+    .right-side{
+        width: 60% !important;
+        margin: 0px !important;
+    }
+    .body{
+        width: auto !important;
+        margin: 0px !important;
+        justify-content: initial !important;
+    }
+    body{
+        width: auto !important;
+        margin: 0px !important;
+    }
+    .skill-line-one,.skill-line-two, .skill-line-four{
+        width: 400px !important;
+    }
+    .skill-line-one-tech,.skill-line-two-tech, .skill-line-four-tech{
+        width: 400px !important;
+    }
+    .skill-line-three{
+        width: 330px !important;
+    }
+    .skill-line-three-tech{
+        width: 320px !important;
+    }
+    .right-hr{
+        width: 300px !important;
+    }
+    .technology{
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+    }
+    .company1{
+        margin-right: 65px !important;
+    }
+    .company2{
+        margin-right: 15px !important;
+    }
+    .company22{
+        margin-right: 70px !important;
+    }
+}
+@media (min-width: 1300px ) and (max-width: 1440px ){
+    .right-side{
+        width: 42% !important;
     }
 }
 body{
@@ -352,5 +462,5 @@ p, h3{
     margin-right: 20px;
 }
 .activities{
-    margin-top: 10%;
+    margin-top: 20%;
 }
