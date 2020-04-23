@@ -1,10 +1,20 @@
 @media (max-width: 575.98px) {
+    body{
+        width: auto !important;
+        margin: 0px !important;
+    }
     .body{
         flex-direction: column !important;
+        width: auto !important;
     }
     .left-side{
-        width: 100% !important;
-        margin: -10px !important;
+        width: auto !important;
+        margin: 0px !important;
+        padding: 50px !important;
+    }
+    .profile-image, .display-picture{
+        width: 100px !important;
+        height: 100px !important;
     }
     .name{
         text-align: center !important;
@@ -12,13 +22,14 @@
     }
     .data-scientist{
         text-align: center !important;
+        font-weight: bold !important;
+        font-size: 13px !important;
     }
     .hr, .right-hr{
         width: 250px !important;
         margin: auto auto auto 0px !important;
     }
     .box, .rightt{
-        /* margin-left: 30px !important;; */
         margin: auto 0px auto auto !important;
     }
     .right-box{
@@ -28,9 +39,10 @@
     .email{
         text-align: center !important;
     }
-    pre{
-        text-align: center !important;
-        margin-left: -20px !important;
+    .social-media{
+        margin: 0px !important;
+        display: flex !important;
+        justify-content: center !important;
     }
     .div-line{
         margin: 50px 0px 10px !important;
@@ -40,53 +52,75 @@
         margin: 0px !important;
     }
     .skill-line-one, .skill-line-two, .skill-line-four{
-        width: 300px !important;
+        width: auto !important;
     }
     .skill-line-one-tech, .skill-line-two-tech, .skill-line-four-tech{
-        width: 150px !important;
+        width: auto !important;
     }
     .skill-line-three{
-        width: 200px !important;
+        width: 250px !important;
     }
     .skill-line-three-tech{
-        width: 100px !important;
+        width: 250px !important;
     }
     .right-side{
-        width: 100% !important;
-        margin: 0px -10px !important;
+        width: auto !important;
+        margin: 0px !important;
+        padding: 50px !important;
     }
-    .company1{
-        margin-right: 50px !important;
+    .bulletin{
+        margin: 0px !important;
+        align-self: center !important;
     }
     .company-name{
-        font-size: 15px !important;
+        font-size: 20px !important;
+        width: auto !important;
+        margin: 0px 5px !important;
     }
     .heading{
         margin-bottom: 5px !important;;
     }
     .description{
-        width: 60% !important;
+        width: auto!important;
+        margin-top: 20px !important;
+        align-self: auto !important;
     }
     .description p{
         margin: 5px 0px !important;
-        letter-spacing: 0.5px;
+    }
+    .company1, .company2, .company3{
+        margin: 0px !important;
     }
     .company11{
-        margin-right: -60px !important;
+        margin-right: 0px !important;
+    }
+    .company22{
+        margin: 0px !important;
     }
     .company33{
-        margin-right: 5px !important;
+        margin-right: 0px !important;
+    }
+    .technology{
+        flex-direction: column-reverse !important;
     }
     .left-technology{
-        margin-right: 15px !important;
+        margin-right: 0px !important;
     }
     .skillset{
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
     .lorem{
-        width: 80% !important;
         text-align: center !important;
-        margin: auto !important;
+        font-size: 14px !important;
+    }
+    .skills{
+        width: auto !important;
+    }
+    .work-history{
+        flex-direction: column !important;
+    }
+    .activities{
+        margin-top: 70px !important;
     }
 }
 body{
@@ -101,14 +135,14 @@ body{
     width: 30%;
     height: auto;
     background: rgba(230, 227, 227, 0.76);
-    padding: 20px 20px 50px;
+    padding: 20px 30px 50px;
     margin: -10px 0px;
 }
 .right-side{
     width: 40%;
     height: auto;
     background: white;
-    padding: 20px 20px 50px;
+    padding: 20px 30px 50px;
     margin: -10px 0px;
 }
 .profile-image{
@@ -137,6 +171,11 @@ p, h3{
     text-align: right;
     color:rgb(77, 186, 236);
     margin-right: 30px;
+    font-family: cursive;
+}
+.lorem{
+    font-family: helvetica;
+    line-height: 1.5;
 }
 .div-line{
     margin: 50px 0px;
@@ -186,7 +225,12 @@ p, h3{
     border: 2px solid rgb(77, 186, 236);
 }
 .email{
-    margin-bottom: -15px;
+    margin-top: 10px;
+}
+.social-media{
+    margin-left: 25px;
+    font-family: arial;
+    font-size: 13px;
 }
 .skill-line-one{
     height: 6px;
@@ -240,6 +284,7 @@ p, h3{
 }
 .skillset{
     margin-bottom: 5px;
+    font-family: Arial;
 }
 .company1{
     display: flex;
@@ -280,6 +325,7 @@ p, h3{
     margin: 0px 5px;
     font-size: 20px;
     width: 30%;
+    font-family: Arial;
 }
 .work-history{
     margin-top: 30px;
@@ -289,9 +335,13 @@ p, h3{
 .title{
     margin: 0px;
     color: rgb(77, 186, 236);
+    font-family: Helvetica;
 }
 .description{
     align-self: center;
+}
+.description p b{
+    font-family: Arial;
 }
 .technology{
     display: flex;
