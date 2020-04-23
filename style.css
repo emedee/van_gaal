@@ -21,6 +21,10 @@
         /* margin-left: 30px !important;; */
         margin: auto 0px auto auto !important;
     }
+    .right-box{
+        width: 10px !important;
+        height: 10px !important;
+    }
     .email{
         text-align: center !important;
     }
@@ -38,15 +42,51 @@
     .skill-line-one, .skill-line-two, .skill-line-four{
         width: 300px !important;
     }
+    .skill-line-one-tech, .skill-line-two-tech, .skill-line-four-tech{
+        width: 150px !important;
+    }
     .skill-line-three{
         width: 200px !important;
+    }
+    .skill-line-three-tech{
+        width: 100px !important;
     }
     .right-side{
         width: 100% !important;
         margin: 0px -10px !important;
     }
     .company1{
-        margin-right: 10px !important;
+        margin-right: 50px !important;
+    }
+    .company-name{
+        font-size: 15px !important;
+    }
+    .heading{
+        margin-bottom: 5px !important;;
+    }
+    .description{
+        width: 60% !important;
+    }
+    .description p{
+        margin: 5px 0px !important;
+        letter-spacing: 0.5px;
+    }
+    .company11{
+        margin-right: -60px !important;
+    }
+    .company33{
+        margin-right: 5px !important;
+    }
+    .left-technology{
+        margin-right: 15px !important;
+    }
+    .skillset{
+        font-size: 12px !important;
+    }
+    .lorem{
+        width: 80% !important;
+        text-align: center !important;
+        margin: auto !important;
     }
 }
 body{
